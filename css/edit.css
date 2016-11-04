@@ -1,0 +1,80 @@
+body {
+    background-image: url('../images/signin/backgroundimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.ui.red.header {
+    font-weight: 100;
+    margin-top: 132px;
+    font-size: 45px;
+}
+
+#changeimg {
+    box-sizing: border-box;
+    color: lightgrey;
+    padding: 0px;
+    position: relative;
+    top: 65px;
+    left: -11.4%;
+    font-size: 2px;
+}
+
+.ui.image.changeimg {
+    margin-left: 12.5px;
+}
+
+.ui.three.column.grid {
+    margin-top: 60px;
+}
+
+.ui.center.aligned.container {
+    position: relative;
+}
+
+.ui.red.image.changeimg {
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.ui.center.form {
+    text-align: center;
+    margin: auto;
+    ;
+}
+
+
+.ui.center.form input {
+    border-radius: 20px;
+}
+
+
+
+.ui.red.circular.button {
+    position: relative;
+    left: 0.75%;
+}
+
+
+.ui.divider.bottom {
+    margin-top: 165px;
+}
+
+#buttonup {
+    width: 25px;
+    height: 50px;
+    padding:0 0 0 0px;
+    margin :0 0 0 0px;
+    border-radius:15px 15px 15px 15px;
+
+    position: absolute;
+    left:50%;
+    top:-5%;
+    transform: translate(-50%,-50%);
+}
+.red.small.mail.icon {
+    position: relative;
+    left:-0.15%;
+    /*top:-5%;*/
+}

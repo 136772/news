@@ -1,0 +1,82 @@
+body {
+    background-image: url('../images/signin/backgroundimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.field span {
+    font-size: 5px;
+    color:grey;
+    position: relative;
+    left:-9%;
+    transform: translate(-50%,-50%);
+}
+
+
+.ui.red.header {
+    font-weight: 100;
+    margin-top: 132px;
+    font-size: 45px;
+    color:red;
+}
+
+
+.ui.three.column.grid {
+    margin-top: 60px;
+}
+
+.ui.center.aligned.container {
+    position: relative;
+}
+
+
+.ui.center.form {
+    text-align: center;
+    margin: auto;
+}
+
+
+.ui.center.form input {
+    border-radius: 20px;
+}
+
+.ui.red.circular.button {
+    position: absolute;
+    left: 56%;
+    top:120%;
+}
+
+
+.ui.divider.bottom {
+    margin-top: 165px;
+}
+
+
+#buttonup {
+    width: 25px;
+    height: 50px;
+    padding:0 0 0 0px;
+    margin :0 0 0 0px;
+    border-radius:15px 15px 15px 15px;
+
+    position: absolute;
+    left:50%;
+    top:-5%;
+    transform: translate(-50%,-50%);
+}
+
+#checkboxicon{
+    position: absolute;
+    left:38.5%;
+    top:130%;
+    transform: translate(-50%,-50%);
+    width: 10%;
+}
+#passwordicon{
+    position: absolute;
+    left:39%;
+    top:150%;
+    transform: translate(-50%,-50%);
+    width: 10%;
+}

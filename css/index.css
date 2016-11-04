@@ -1,0 +1,99 @@
+.ui.fixed.borderless.nine.item.menu.segment.red{
+    height: 60px;
+}
+
+.main {
+    padding-top: 70px;
+}
+
+.ui.basic.segment.newslist {
+    margin-left: 11%;
+    width: 60%;
+}
+
+.ui.right.attached.rail {
+    width: 220px;
+}
+
+.ui.negative.basic.button {
+    position: absolute;
+    left:50%;
+    top: 103%;
+    width: 35%;
+    transform: translate(-50%,-50%);
+}
+
+a{
+    color: red;
+}
+
+#newslistimage {
+    object-fit:cover;
+    width: 350px;
+    height: 200px;
+}
+
+#rightimage_des {
+    background-color:black;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    opacity:0.5;
+    font-size: 6px;
+    color: white;
+
+    position: absolute;
+    left:0%;
+    top: 48%;
+}
+
+#rightimage {
+    height: 120px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+#imagetable {
+    width: 52px;
+    height:30px;
+    border-radius:0px 0px 15px 15px;
+    margin-left: 10px;
+}
+
+#newslistdate {
+    position: relative;
+    top: 12%;
+    /*transform: translate(-50%,-50%);*/
+    /*left: -13%;*/
+}
+.ui.red.button {
+    width: 25px;
+    height: 50px;
+    padding:0 0 0 0px;
+    margin :0 0 0 0px;
+    border-radius:15px 15px 15px 15px;
+
+    position: relative;
+    left:50%;
+    top:100%;
+    transform: translate(-50%,-50%);
+}
+
+.footer.b {
+    padding-top: 100px;
+}
+
+.ui.very.vertical.padded.segment {
+    background-color: rgb(51, 51, 51);
+}
+#downsegment {
+    margin-top: 0px;
+    position: relative;
+    top:-80%;
+}
+.ui.large.header {
+    position: relative;
+    left: -10%;
+    color: white;
+}

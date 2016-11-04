@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/semantic.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css" media="screen" title="no title">
+</head>
+
+<body>
+    <div class="ui center aligned container">
+        <h1 class="ui red header">登录</h1>
+
+        <form class="ui center form">
+            <div class="field">
+                <i class="red user icon" style="width:11px;"></i>
+                <input class="input view" style="height:27px; width: 26%;" type="text" name="email" placeholder="注册邮箱">
+            </div>
+            <div class="field">
+                <i class="red lock icon" style="width:11px;"></i>
+                <input class="input view" style="height:27px; width: 26%;" type="text" name="password" placeholder="密码">
+            </div>
+
+            <div class="field" id="checkboxicon">
+                <div class="image">
+                    <img src="images/signin/checkboxicon.png" alt="" id=remberme>
+                    <label for="remberme" style="color:lightgrey;font-size:3px;">记住我</label>
+                </div>
+            </div>
+            <div class="field" id="passwordicon">
+                <div class="image">
+                    <img src="images/signin/passwordicon.png" alt="" id=forget>
+                    <label for="forget"  style="color:lightgrey;font-size:3px;">忘记密码</label>
+                </div>
+            </div>
+
+
+            <button class="ui red circular button" type="submit" style="padding:0.6%;width:8%;">登录</button>
+        </form>
+    </div>
+
+    <div class="ui center aligned container">
+        <div class="ui divider bottom"></div>
+        <a class="ui red button" href="./index.html" id="buttonup">
+            <div class="ui basic segment" style="padding:0 0 0 0px;margin-bottom: 4px;margin-top: 6px;">
+                <img src="images/signin/homeicon.png" alt="" style="width: 18px;">
+            </div>
+            <div class="ui basic segment"style="padding:0 0 0 0px;margin-top:0px;font-size:4px;">
+                首页
+            </div>
+        </a>
+
+        <div class="ui image" style="position:relative;top:20px;">
+            <img src="images/signin/zhiribao.png" alt="" />
+        </div>
+    </div>
+
+</body>
+
+</html>
